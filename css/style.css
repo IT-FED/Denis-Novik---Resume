@@ -1,0 +1,254 @@
+/*Стандарт всіх сторінок*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 944px;
+  margin: 0 auto;
+}
+
+/*Шапка сайту*/
+header a {
+  color: #828282;
+  transition: all 0.5s ease;
+}
+
+header a:hover {
+  color: #070707;
+}
+.nav {
+  padding-top: 33px;
+  padding-bottom: 33px;
+  border-bottom: 1px solid #828282;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-decoration: none;
+  margin-right: 153px;
+  white-space: nowrap;
+}
+
+.home {
+  color: #070707;
+  transition: all 0.5s ease;
+}
+
+.home:hover {
+  color: #828282;
+}
+
+.offer {
+  margin-top: 40px;
+  margin-left: 0;
+  padding: 0px;
+  display: flex;
+}
+
+.offer1 {
+  font-size: 25px;
+  margin-right: 290px;
+}
+
+.offer2 {
+  margin: 69px 335px 0 0;
+}
+
+.offer2 p {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.offer3 {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  margin-bottom: 17px;
+}
+
+.offer3 a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.image {
+  margin-top: 31px;
+  margin-bottom: 105px;
+}
+
+.image img {
+  width: 944px;
+  height: 388px;
+}
+
+/*Контент сайту*/
+
+h2, h3, h4, h5, p {
+  text-align: center;
+  margin: 0;
+}
+
+.container1 {
+  background-color: #F6F6F6;
+}
+
+.about {
+  padding-top: 120px;
+  padding-bottom: 107px;
+}
+
+.h2-5 {
+  font-size: 34px;
+}
+
+.h3 {
+  margin-top: 120px;
+}
+
+.description {
+  font-weight: 500;
+  margin-top: 36px;
+}
+
+.description1 {
+  font-weight: 500;
+  margin-top: 70px;
+}
+
+.icon {
+  margin-top: 84px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon1 {
+  border: none;
+  text-align: center;
+}
+
+.icon1 img {
+  width: 89px;
+  height: 89px;
+}
+
+.icon1 p {
+  font-size: 14px;
+  color: #828282;
+  margin-top: 22px;
+}
+
+.star {
+  margin-top: 40px;
+  width: 166px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.star img {
+  width: 26px;
+  height: 26px;
+}
+
+.star1 {
+  margin-top: 59px;
+}
+
+.photo1 {
+  margin-top: 47px;
+}
+
+.sites {
+  padding-top: 113px;
+  padding-bottom: 97px;
+}
+
+.link {
+  color: #070707;
+  text-decoration: underline;
+  text-decoration-color: #070707;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  color: #828282;
+  text-decoration-color: #828282;
+}
+
+.link p {
+  margin-top: 45px;
+  font-weight: 500;
+}
+
+.photo2 {
+  margin-top: 100px;
+}
+
+.photo2 img {
+  width: 944px;
+}
+
+.offer4 {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.button {
+  display: block;
+  border-radius: 50px;
+  padding: 13px 30px;
+  background-color: #000000;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 35px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+ background-color: #F6F6F6;
+ color: #000000;
+}
+
+.icon2 {
+  margin: auto;
+  margin-top: 86px;
+  display: flex;
+  justify-content: space-between;
+  width: 343px;
+}
+
+.icon2 img {
+  width: 40px;
+  height: 40px;
+}
+
+.messengers {
+  margin-top: 46px;
+  margin-bottom: 124px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+}
